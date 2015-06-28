@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80BA8AD21B388B3300AEAE3B /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = 80BA8AD01B388B3300AEAE3B /* time.png */; };
+		80BA8AD31B388B3300AEAE3B /* time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80BA8AD11B388B3300AEAE3B /* time@2x.png */; };
+		80BA8AD51B388D7100AEAE3B /* meta@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80BA8AD41B388D7100AEAE3B /* meta@2x.png */; };
+		80BA8AD71B388E7D00AEAE3B /* Buttonklein@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80BA8AD61B388E7D00AEAE3B /* Buttonklein@2x.png */; };
+		80BA8AD91B388FE500AEAE3B /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80BA8AD81B388FE500AEAE3B /* menu@2x.png */; };
+		80BA8ADB1B3891E000AEAE3B /* change@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80BA8ADA1B3891E000AEAE3B /* change@2x.png */; };
+		80BA8ADD1B38970C00AEAE3B /* burgerIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80BA8ADC1B38970C00AEAE3B /* burgerIcon@2x.png */; };
+		80BA8ADF1B38A05800AEAE3B /* LDIntermediateImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BA8ADE1B38A05800AEAE3B /* LDIntermediateImageViewController.swift */; };
 		80C2E1B21B3208C700E8DE85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2E1B11B3208C700E8DE85 /* AppDelegate.swift */; };
 		80C2E1B51B3208C700E8DE85 /* SpeechlessCookBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80C2E1B31B3208C700E8DE85 /* SpeechlessCookBook.xcdatamodeld */; };
 		80C2E1B71B3208C700E8DE85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2E1B61B3208C700E8DE85 /* ViewController.swift */; };
@@ -14,6 +22,20 @@
 		80C2E1BC1B3208C700E8DE85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C2E1BB1B3208C700E8DE85 /* Images.xcassets */; };
 		80C2E1BF1B3208C700E8DE85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80C2E1BD1B3208C700E8DE85 /* LaunchScreen.xib */; };
 		80C2E1CB1B3208C700E8DE85 /* SpeechlessCookBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2E1CA1B3208C700E8DE85 /* SpeechlessCookBookTests.swift */; };
+		80C2E1D51B35CEA500E8DE85 /* LDRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2E1D41B35CEA500E8DE85 /* LDRecipe.swift */; };
+		80C2E1D91B35DA5300E8DE85 /* overView@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C2E1D81B35DA5300E8DE85 /* overView@2x.jpg */; };
+		80C2E1DC1B35DC5B00E8DE85 /* frau_01@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C2E1DA1B35DC5B00E8DE85 /* frau_01@2x.jpg */; };
+		80C2E1DD1B35DC5B00E8DE85 /* frau_02@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C2E1DB1B35DC5B00E8DE85 /* frau_02@2x.jpg */; };
+		80C2E1DF1B35E26500E8DE85 /* LDReciptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2E1DE1B35E26500E8DE85 /* LDReciptViewController.swift */; };
+		80C2E1E21B35E36100E8DE85 /* Icons@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C2E1E01B35E36100E8DE85 /* Icons@2x.png */; };
+		80C2E1E31B35E36100E8DE85 /* Iconslist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C2E1E11B35E36100E8DE85 /* Iconslist@2x.png */; };
+		80F327241B39DC0E005FA809 /* brotoben2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F3271E1B39DC0E005FA809 /* brotoben2@2x.png */; };
+		80F327251B39DC0E005FA809 /* brotunten2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F3271F1B39DC0E005FA809 /* brotunten2@2x.png */; };
+		80F327261B39DC0E005FA809 /* patty2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F327201B39DC0E005FA809 /* patty2@2x.png */; };
+		80F327271B39DC0E005FA809 /* salat2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F327211B39DC0E005FA809 /* salat2@2x.png */; };
+		80F327281B39DC0E005FA809 /* salatpiece2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F327221B39DC0E005FA809 /* salatpiece2@2x.png */; };
+		80F327291B39DC0E005FA809 /* tomate2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F327231B39DC0E005FA809 /* tomate2@2x.png */; };
+		80F3275C1B404654005FA809 /* LDAnimationElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F3275B1B404654005FA809 /* LDAnimationElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80BA8AD01B388B3300AEAE3B /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = time.png; path = ../../../../Desktop/hp/time.png; sourceTree = "<group>"; };
+		80BA8AD11B388B3300AEAE3B /* time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "time@2x.png"; path = "../../../../Desktop/hp/time@2x.png"; sourceTree = "<group>"; };
+		80BA8AD41B388D7100AEAE3B /* meta@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "meta@2x.png"; path = "../../../../Desktop/hp/meta@2x.png"; sourceTree = "<group>"; };
+		80BA8AD61B388E7D00AEAE3B /* Buttonklein@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Buttonklein@2x.png"; path = "../../../../Desktop/SpeechlessCookBook/web 3/images/Buttonklein@2x.png"; sourceTree = "<group>"; };
+		80BA8AD81B388FE500AEAE3B /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "../../../../Desktop/hp/menu@2x.png"; sourceTree = "<group>"; };
+		80BA8ADA1B3891E000AEAE3B /* change@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "change@2x.png"; path = "../../../../Desktop/hp/change@2x.png"; sourceTree = "<group>"; };
+		80BA8ADC1B38970C00AEAE3B /* burgerIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "burgerIcon@2x.png"; path = "../../../../Desktop/hp/burgerIcon@2x.png"; sourceTree = "<group>"; };
+		80BA8ADE1B38A05800AEAE3B /* LDIntermediateImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LDIntermediateImageViewController.swift; sourceTree = "<group>"; };
 		80C2E1AC1B3208C700E8DE85 /* SpeechlessCookBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechlessCookBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C2E1B01B3208C700E8DE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80C2E1B11B3208C700E8DE85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +68,20 @@
 		80C2E1C41B3208C700E8DE85 /* SpeechlessCookBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechlessCookBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C2E1C91B3208C700E8DE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80C2E1CA1B3208C700E8DE85 /* SpeechlessCookBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechlessCookBookTests.swift; sourceTree = "<group>"; };
+		80C2E1D41B35CEA500E8DE85 /* LDRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LDRecipe.swift; sourceTree = "<group>"; };
+		80C2E1D81B35DA5300E8DE85 /* overView@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "overView@2x.jpg"; path = "../../../../Desktop/hp/overView@2x.jpg"; sourceTree = "<group>"; };
+		80C2E1DA1B35DC5B00E8DE85 /* frau_01@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "frau_01@2x.jpg"; path = "../../../../Desktop/hp/frau_01@2x.jpg"; sourceTree = "<group>"; };
+		80C2E1DB1B35DC5B00E8DE85 /* frau_02@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "frau_02@2x.jpg"; path = "../../../../Desktop/hp/frau_02@2x.jpg"; sourceTree = "<group>"; };
+		80C2E1DE1B35E26500E8DE85 /* LDReciptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LDReciptViewController.swift; sourceTree = "<group>"; };
+		80C2E1E01B35E36100E8DE85 /* Icons@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icons@2x.png"; path = "../../../../Desktop/SpeechlessCookBook/web 3/images/Icons@2x.png"; sourceTree = "<group>"; };
+		80C2E1E11B35E36100E8DE85 /* Iconslist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Iconslist@2x.png"; path = "../../../../Desktop/SpeechlessCookBook/web 3/images/Iconslist@2x.png"; sourceTree = "<group>"; };
+		80F3271E1B39DC0E005FA809 /* brotoben2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brotoben2@2x.png"; sourceTree = "<group>"; };
+		80F3271F1B39DC0E005FA809 /* brotunten2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brotunten2@2x.png"; sourceTree = "<group>"; };
+		80F327201B39DC0E005FA809 /* patty2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "patty2@2x.png"; sourceTree = "<group>"; };
+		80F327211B39DC0E005FA809 /* salat2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "salat2@2x.png"; sourceTree = "<group>"; };
+		80F327221B39DC0E005FA809 /* salatpiece2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "salatpiece2@2x.png"; sourceTree = "<group>"; };
+		80F327231B39DC0E005FA809 /* tomate2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomate2@2x.png"; sourceTree = "<group>"; };
+		80F3275B1B404654005FA809 /* LDAnimationElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LDAnimationElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +124,17 @@
 			isa = PBXGroup;
 			children = (
 				80C2E1B11B3208C700E8DE85 /* AppDelegate.swift */,
+				80C2E1D61B35DA2B00E8DE85 /* assets */,
 				80C2E1B61B3208C700E8DE85 /* ViewController.swift */,
+				80BA8ADE1B38A05800AEAE3B /* LDIntermediateImageViewController.swift */,
 				80C2E1B81B3208C700E8DE85 /* Main.storyboard */,
 				80C2E1BB1B3208C700E8DE85 /* Images.xcassets */,
 				80C2E1BD1B3208C700E8DE85 /* LaunchScreen.xib */,
 				80C2E1B31B3208C700E8DE85 /* SpeechlessCookBook.xcdatamodeld */,
 				80C2E1AF1B3208C700E8DE85 /* Supporting Files */,
+				80C2E1D41B35CEA500E8DE85 /* LDRecipe.swift */,
+				80C2E1DE1B35E26500E8DE85 /* LDReciptViewController.swift */,
+				80F3275B1B404654005FA809 /* LDAnimationElement.swift */,
 			);
 			path = SpeechlessCookBook;
 			sourceTree = "<group>";
@@ -113,6 +162,39 @@
 				80C2E1C91B3208C700E8DE85 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80C2E1D61B35DA2B00E8DE85 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				80C2E1D71B35DA3300E8DE85 /* images */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		80C2E1D71B35DA3300E8DE85 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				80F3271E1B39DC0E005FA809 /* brotoben2@2x.png */,
+				80F3271F1B39DC0E005FA809 /* brotunten2@2x.png */,
+				80F327201B39DC0E005FA809 /* patty2@2x.png */,
+				80F327211B39DC0E005FA809 /* salat2@2x.png */,
+				80F327221B39DC0E005FA809 /* salatpiece2@2x.png */,
+				80F327231B39DC0E005FA809 /* tomate2@2x.png */,
+				80C2E1E01B35E36100E8DE85 /* Icons@2x.png */,
+				80C2E1E11B35E36100E8DE85 /* Iconslist@2x.png */,
+				80BA8AD01B388B3300AEAE3B /* time.png */,
+				80BA8AD11B388B3300AEAE3B /* time@2x.png */,
+				80BA8ADC1B38970C00AEAE3B /* burgerIcon@2x.png */,
+				80BA8AD81B388FE500AEAE3B /* menu@2x.png */,
+				80C2E1DA1B35DC5B00E8DE85 /* frau_01@2x.jpg */,
+				80BA8ADA1B3891E000AEAE3B /* change@2x.png */,
+				80BA8AD61B388E7D00AEAE3B /* Buttonklein@2x.png */,
+				80BA8AD41B388D7100AEAE3B /* meta@2x.png */,
+				80C2E1DB1B35DC5B00E8DE85 /* frau_02@2x.jpg */,
+				80C2E1D81B35DA5300E8DE85 /* overView@2x.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +246,15 @@
 				TargetAttributes = {
 					80C2E1AB1B3208C700E8DE85 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = LDA7292RBA;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 					80C2E1C31B3208C700E8DE85 = {
 						CreatedOnToolsVersion = 6.2;
@@ -195,9 +286,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F327271B39DC0E005FA809 /* salat2@2x.png in Resources */,
+				80F327251B39DC0E005FA809 /* brotunten2@2x.png in Resources */,
+				80C2E1E31B35E36100E8DE85 /* Iconslist@2x.png in Resources */,
+				80BA8AD71B388E7D00AEAE3B /* Buttonklein@2x.png in Resources */,
+				80BA8AD91B388FE500AEAE3B /* menu@2x.png in Resources */,
 				80C2E1BA1B3208C700E8DE85 /* Main.storyboard in Resources */,
+				80BA8AD21B388B3300AEAE3B /* time.png in Resources */,
 				80C2E1BF1B3208C700E8DE85 /* LaunchScreen.xib in Resources */,
+				80C2E1E21B35E36100E8DE85 /* Icons@2x.png in Resources */,
+				80BA8AD51B388D7100AEAE3B /* meta@2x.png in Resources */,
+				80C2E1DC1B35DC5B00E8DE85 /* frau_01@2x.jpg in Resources */,
+				80C2E1DD1B35DC5B00E8DE85 /* frau_02@2x.jpg in Resources */,
+				80C2E1D91B35DA5300E8DE85 /* overView@2x.jpg in Resources */,
 				80C2E1BC1B3208C700E8DE85 /* Images.xcassets in Resources */,
+				80F327261B39DC0E005FA809 /* patty2@2x.png in Resources */,
+				80BA8ADB1B3891E000AEAE3B /* change@2x.png in Resources */,
+				80F327291B39DC0E005FA809 /* tomate2@2x.png in Resources */,
+				80F327241B39DC0E005FA809 /* brotoben2@2x.png in Resources */,
+				80BA8AD31B388B3300AEAE3B /* time@2x.png in Resources */,
+				80BA8ADD1B38970C00AEAE3B /* burgerIcon@2x.png in Resources */,
+				80F327281B39DC0E005FA809 /* salatpiece2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +324,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C2E1DF1B35E26500E8DE85 /* LDReciptViewController.swift in Sources */,
 				80C2E1B71B3208C700E8DE85 /* ViewController.swift in Sources */,
+				80C2E1D51B35CEA500E8DE85 /* LDRecipe.swift in Sources */,
+				80F3275C1B404654005FA809 /* LDAnimationElement.swift in Sources */,
+				80BA8ADF1B38A05800AEAE3B /* LDIntermediateImageViewController.swift in Sources */,
 				80C2E1B21B3208C700E8DE85 /* AppDelegate.swift in Sources */,
 				80C2E1B51B3208C700E8DE85 /* SpeechlessCookBook.xcdatamodeld in Sources */,
 			);
@@ -342,9 +455,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SpeechlessCookBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -352,9 +469,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SpeechlessCookBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -411,6 +532,7 @@
 				80C2E1D01B3208C700E8DE85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80C2E1D11B3208C700E8DE85 /* Build configuration list for PBXNativeTarget "SpeechlessCookBookTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +541,7 @@
 				80C2E1D31B3208C700E8DE85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
